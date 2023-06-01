@@ -21,6 +21,7 @@ nav {
     align-items: center;
     padding: 0px 20px;
     position: sticky;
+    z-index: 100;
     top: 0;
     backdrop-filter: blur(8px) saturate(180%);
     -webkit-backdrop-filter: blur(8px) saturate(180%);
@@ -42,6 +43,77 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.btn-79,
+.btn-79 *,
+.btn-79 :after,
+.btn-79 :before,
+.btn-79:after,
+.btn-79:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-79 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color:#000;
+  background-image: none;
+  color:#fff;
+  cursor: pointer;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 100%;
+  font-weight: 600;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-79:disabled {
+  cursor: default;
+}
+.btn-79:-moz-focusring {
+  outline: auto;
+}
+.btn-79 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-79 [hidden] {
+  display: none;
+}
+.btn-79 {
+  --height: 80px;
+  background: none;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: var(--height);
+  -webkit-mask-image: none;
+  padding: 0 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-79 span {
+  font-weight: 900;
+  mix-blend-mode: difference;
+}
+.btn-79:before {
+  background:#fff;
+  border-radius: 20px;
+  content: "";
+  height: calc(var(--height) / 1.7);
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.2s;
+  width: calc(var(--height) / 1.7);
+}
+.btn-79:hover:before {
+  left: 0;
+  width: 100%;
 }
 
 .project-box {
@@ -124,7 +196,7 @@ article:hover {
 header {
     text-align: center;
     max-width: 1200px;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,6 +233,11 @@ h2 {
 
 .together-section {
   margin: 80px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
