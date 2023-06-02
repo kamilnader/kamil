@@ -32,7 +32,7 @@ nav {
   }
 
 nav p {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 a {
@@ -240,6 +240,10 @@ h2 {
   justify-content: center;
 }
 
+.together-section h2 {
+  margin-bottom: 10px;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -250,6 +254,48 @@ footer {
     margin: 0 auto;
     max-width: 1200px;
 }
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+  width: 100%;
+  max-width: 500px;
+  color: white;
+  margin-top: 80px;
+}
+
+ input[type="text"], input[type="email"] {
+  margin-bottom: 20px;
+  background-color: transparent;
+  height: 40px;
+  border-top: 0x;
+  border-left: 0px;
+  border-right: 0px;
+  color: white;
+  border-bottom-color:grey;
+  font-size: 18px;
+
+ }
+
+textarea {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-top: none;
+  border-left: 0px;
+  border-right: 0px;
+  color: white;
+  border-bottom-color:grey;
+  font-size: 18px;
+}
+
+input:focus-visible, textarea:focus-visible {
+  outline: none;
+  border-bottom-color: white;
+}
+
 
 
 

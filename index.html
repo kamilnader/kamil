@@ -11,20 +11,20 @@
     <nav>
         <p id="logo">Kamil Nader</p>
         <ul class="navigation-items">
-          <li class="navigation-item"><a href="#projects">Projects</a></li>
-          <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+          <li class="navigation-item"><a href="#experiences">My Work</a></li>
+          <li class="navigation-item"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <header>
         <h1>Hello, my name's Kamil. I'm a Front-End Web Developer.</h1>
         <p>Below you find some of my previous work</p>
-        <button class="btn-79"><span>Get In Touch</span></button>
+        <a href="#contact"><button class="btn-79"><span>Get In Touch</span></button></a>
     </header>
     <main>
         <section>
-            <div class="projects-heading">
-                <h2>My Projects</h2>
-                <p>My Latest Projects</p>
+            <div class="projects-heading" id="experiences">
+                <h2>My Experiences</h2>
+                <p>My most recent work</p>
             </div>
             <div class="projects-grid">
                 <a href="https://www.ui-snippets.com"><article>
@@ -54,9 +54,18 @@
             </div>
         </section>
         <section>
-            <div class="together-section">
+            <div class="together-section" id="contact">
                 <h2>Let's Work Together.</h2>
-                <button class="btn-79"><span>Get In Touch</span></button>
+                <p>Use contact form below the get in touch with me</p>
+                <form action="https://submit-form.com/A7oxyC0Q">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required="" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required="" />
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="3" cols="10" required=""></textarea>
+                    <button class ="btn-79" type="submit"><span>Send</span></button>
+                  </form>
             </div>
         </section>
     </main>
