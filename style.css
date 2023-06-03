@@ -25,7 +25,7 @@ nav {
     top: 0;
     backdrop-filter: blur(8px) saturate(180%);
     -webkit-backdrop-filter: blur(8px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.75);
+    background-color: rgba(36, 36, 69, 0.75); 
     border: 1px solid rgba(255, 255, 255, 0.125);
 
 
@@ -179,7 +179,7 @@ article:hover .project-box {
 article {
     backdrop-filter: blur(8px) saturate(180%);
     -webkit-backdrop-filter: blur(8px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.75);
+    background-color: rgba(36, 36, 69, 0.85);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
     padding: 30px 30px;
@@ -238,6 +238,8 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .together-section h2 {
@@ -253,6 +255,7 @@ footer {
     margin-top: 50px;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0px 20px;
 }
 
 
@@ -334,5 +337,9 @@ input:focus-visible, textarea:focus-visible {
 
     article p {
       font-size: 20px;
+    }
+
+    footer {
+      padding: 0px 0px;
     }
   }
